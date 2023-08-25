@@ -50,7 +50,7 @@ const NavBar = (props) => {
               sx={{ mr: 2 }}
             />
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Expense Logger
+              Budget Buddy
             </Typography>
             {user && (
               <Button color="inherit" onClick={handleClick}>
